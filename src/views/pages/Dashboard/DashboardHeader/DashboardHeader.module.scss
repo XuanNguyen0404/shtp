@@ -1,0 +1,72 @@
+@import "../../../../variable/variable";
+$card-title: #9fa2b4;
+$card-body: #252733;
+
+.wrapper {
+  height: 100%;
+  position: relative;
+  padding: 4px;
+  margin: 0;
+  background-color: $dashboard-header;
+  .titleWrapper {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    .title {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+  .profileWrapper {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & > div {
+      display: inline-block;
+    }
+  }
+  .card {
+    border: 5px double white;
+    margin-top: 6px;
+    .cardTitle {
+      margin: 0;
+      padding: 0;
+      .spanCardTitle {
+        font-size: large;
+        color: $card-title;
+      }
+    }
+    .cardBody {
+      margin: 0;
+      padding: 0;
+      .spanCardBody {
+        font-size: xx-large;
+        color: $card-body;
+      }
+    }
+  }
+  .menuItem {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .active > .card {
+    border: 5px double $royralBlue;
+    .cardTitle {
+      .spanCardTitle {
+        color: $royralBlue;
+        font-weight: bold;
+      }
+    }
+    .cardBody {
+      .spanCardBody {
+        color: $royralBlue;
+        font-weight: bold;
+      }
+    }
+  }
+}

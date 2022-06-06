@@ -1,0 +1,37 @@
+$sidebarWidth: 13%;
+$mainContainerWidth: 100% - $sidebarWidth;
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .container {
+        width: 100%;
+        display: flex;
+        .sidebarWrapper {
+            font-size: 16px;
+            line-height: 16px;
+            color: #dde2ff;
+            min-width: $sidebarWidth;
+            height: 100vh;
+            background: #363740;
+            overflow: hidden;
+        }
+        .mainContainer {
+            min-width: $mainContainerWidth;
+            width: $mainContainerWidth;
+            height: 100vh;
+            .headerWrapper {
+                height: 6%;
+                Header {
+                    margin: 0;
+                    padding: 8px;
+                }
+            }
+            .content {
+                height: 94%;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,18 @@
+@import "../../../../variable/variable";
+.wrapper {
+  height: 100%;
+  .btnExcel {
+    background-color: $excel;
+  }
+  .btnAdd {
+    background-color: $royralBlue;
+  }
+  .smMenu {
+    cursor: pointer;
+  }
+  .menuItem {
+    cursor: pointer;
+  }
+  
+  
+}

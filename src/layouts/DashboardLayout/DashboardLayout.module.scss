@@ -1,0 +1,39 @@
+$sidebarWidth: 13%;
+$mainContainerWidth: 100% - $sidebarWidth;
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .container {
+    width: 100%;
+    display: flex;
+    .sidebarWrapper {
+      font-size: 16px;
+      line-height: 16px;
+      color: #dde2ff;
+      min-width: $sidebarWidth;
+      height: 100vh;
+      background: #363740;
+      overflow: hidden;
+    }
+    .mainContainer {
+      min-width: $mainContainerWidth;
+      width: $mainContainerWidth;
+      overflow: hidden;
+      .content {
+        height: 100vh;
+        .wrapperDashboard {
+          height: 100%;
+          .containerHeader {
+            height: 22%;
+          }
+          .containerDashboard {
+            height: 78%;
+          }
+        }
+      }
+    }
+    
+  }
+}
