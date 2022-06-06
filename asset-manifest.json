@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/shtp/static/css/main.21d53f44.css",
-    "main.js": "/shtp/static/js/main.7687f42c.js",
-    "static/media/fa-solid-900.ttf": "/shtp/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
-    "static/media/fa-brands-400.ttf": "/shtp/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
-    "static/media/team-1.jpg": "/shtp/static/media/team-1.fa5a7ac2c81a43925586.jpg",
-    "static/media/fa-solid-900.woff2": "/shtp/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
-    "static/media/nucleo-icons.svg": "/shtp/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
-    "static/media/team-4.jpg": "/shtp/static/media/team-4.99c612eb60728a5aeeb0.jpg",
-    "static/media/fa-brands-400.woff2": "/shtp/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
-    "static/media/fa-regular-400.ttf": "/shtp/static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
-    "static/media/fa-regular-400.woff2": "/shtp/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
-    "static/media/nucleo-icons.eot": "/shtp/static/media/nucleo-icons.19abb5402a664606b14c.eot",
-    "static/media/nucleo-icons.ttf": "/shtp/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
-    "static/media/fa-v4compatibility.ttf": "/shtp/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
-    "static/media/nucleo-icons.woff": "/shtp/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
-    "static/media/nucleo-icons.woff2": "/shtp/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
-    "static/media/fa-v4compatibility.woff2": "/shtp/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
-    "index.html": "/shtp/index.html",
-    "main.21d53f44.css.map": "/shtp/static/css/main.21d53f44.css.map",
-    "main.7687f42c.js.map": "/shtp/static/js/main.7687f42c.js.map"
+    "main.css": "/static/css/main.e0c82550.css",
+    "main.js": "/static/js/main.dec1a025.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
+    "static/media/team-1.jpg": "/static/media/team-1.fa5a7ac2c81a43925586.jpg",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
+    "static/media/nucleo-icons.svg": "/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
+    "static/media/team-4.jpg": "/static/media/team-4.99c612eb60728a5aeeb0.jpg",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.19abb5402a664606b14c.eot",
+    "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
+    "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
+    "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
+    "index.html": "/index.html",
+    "main.e0c82550.css.map": "/static/css/main.e0c82550.css.map",
+    "main.dec1a025.js.map": "/static/js/main.dec1a025.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d53f44.css",
-    "static/js/main.7687f42c.js"
+    "static/css/main.e0c82550.css",
+    "static/js/main.dec1a025.js"
   ]
 }
