@@ -3,7 +3,7 @@ import React from "react";
 import classNames from "classnames/bind";
 import Header from "../../components/Header/Header";
 import styles from "./DefaultLayoutEnterprise.module.scss";
-import SidebarEnterprise from "~/components/SidebarEnterprise/SidebarEnterprise";
+import SidebarEnterprise from "src/components/SidebarEnterprise/SidebarEnterprise";
 const cx = classNames.bind(styles);
 
 interface Props {

@@ -1,4 +1,4 @@
-import { IndustrialAreaType } from "~/types/IndustrialAreaType";
+import { IndustrialAreaType } from "src/types/IndustrialAreaType";
 import axiosClient from "./axiosClient";
 
 class IndustrialAreaTypeApi {

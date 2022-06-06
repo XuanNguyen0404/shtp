@@ -14,7 +14,7 @@ import {
 } from "chart.js";
 import faker from "faker";
 import DashboardHeader from "../../views/pages/Dashboard/DashboardHeader/DashboardHeader";
-import Sidebar from "~/components/Sidebar/Sidebar";
+import Sidebar from "src/components/Sidebar/Sidebar";
 
 interface Props {
   title: string;
@@ -29,11 +29,6 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-interface Route {
-  path: string;
-  component: () => JSX.Element;
-  title: string;
-}
 export const options = {
   responsive: true,
   plugins: {

@@ -1,4 +1,4 @@
-import { Project, ProjectItem } from "~/types/Project";
+import { ProjectItem, Project } from "src/types/Project";
 import axiosClient from "./axiosClient";
 
 class ProjectApi {

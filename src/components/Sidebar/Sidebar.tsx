@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Sidebar.module.scss";
 import classNames from "classnames/bind";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

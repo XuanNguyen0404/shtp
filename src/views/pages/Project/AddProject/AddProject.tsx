@@ -12,17 +12,17 @@ import {
   Input,
   Row,
 } from "reactstrap";
-import enterpriseApi from "~/api/EnterpriseApi";
-import projectApi from "~/api/ProjectApi";
-import { EnterpriseDropdownItem } from "~/types/Enterprise";
-import { Project } from "~/types/Project";
+import enterpriseApi from "src/api/EnterpriseApi";
+import projectApi from "src/api/ProjectApi";
+import { EnterpriseDropdownItem } from "src/types/Enterprise";
+import { Project } from "src/types/Project";
 function AddProject() {
   let navigate = useNavigate();
   const [project, setProject] = useState<Project>({
     name: "",
     address: "",
     status: "",
-    registrationCertificateDate : "",
+    registrationCertificateDate: "",
     enterpriseName: "",
     busRegCerNo: "",
     businessRegistrationAuthority: "",
@@ -70,7 +70,7 @@ function AddProject() {
       });
       console.log("Add project successfully", response);
       toast.success("Thêm dự án thành công !");
-        navigate("/project");
+      navigate("/project");
     } catch (error) {
       console.log("Failed to add enterprises", error);
       toast.error("Thêm dự án thất bại !");

@@ -1,9 +1,9 @@
-import { Enterprise, EnterpriseDropdownItem, EnterpriseItem } from "~/types/Enterprise";
+import { Enterprise, EnterpriseDropdownItem, EnterpriseItem } from "src/types/Enterprise";
 import axiosClient from "./axiosClient";
 
 class EnterpriseApi {
   getlAllEnterpriseItemDropdown = () => {
-    const url = `/Enterprises`;
+    const url = `/Enterprises/GetEnterpriseForDropDown`;
     return axiosClient.get<EnterpriseDropdownItem[]>(url);
   };
 

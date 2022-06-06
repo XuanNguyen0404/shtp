@@ -3,11 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
-import { publicRoutes } from "~/routes/index";
-import DefaultLayout from "~/layouts/DefaultLayout/DefaultLayout";
-import { Fragment } from "react";
-import NoHeaderLayout from "./layouts/NoHeaderLayout/NoHeaderLayout";
 import { ToastContainer } from "react-toastify";
+import { publicRoutes } from "./routes";
 
 interface Props {
   title: string;

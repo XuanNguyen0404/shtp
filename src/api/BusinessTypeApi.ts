@@ -1,4 +1,4 @@
-import { BusinessType } from "~/types/BusinessType";
+import { BusinessType } from "src/types/BusinessType";
 import axiosClient from "./axiosClient";
 
 class BusinessTypeApi {

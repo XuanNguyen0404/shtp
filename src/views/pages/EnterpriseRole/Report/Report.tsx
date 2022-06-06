@@ -4,8 +4,6 @@ import classNames from "classnames/bind";
 import {
   faEllipsisV,
   faCircleInfo,
-  faFloppyDisk,
-  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format, parse } from "date-format-parse";
@@ -20,19 +18,16 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Modal,
-  ModalHeader,
-  FormGroup,
   CardFooter,
   Pagination,
   PaginationItem,
   PaginationLink,
   Input,
 } from "reactstrap";
-import Loading from "~/components/Loading/Loading";
 import PerfectScrollbar from "react-perfect-scrollbar";
-import { ProjectReportItem } from "~/types/Project";
-import { Paging } from "~/types/Paging";
+import Loading from "src/components/Loading/Loading";
+import { Paging } from "src/types/Paging";
+import { ProjectReportItem } from "src/types/Project";
 const cx = classNames.bind(styles);
 
 function Report() {
@@ -124,7 +119,7 @@ function Report() {
           <Card className="m-4">
             <CardHeader className="">
               <Row>
-                <Col sm="3" >
+                <Col sm="3">
                   <h3 className="mb-0 d-inline-block mr-5">Tất cả các dự án</h3>
                 </Col>
                 <Col sm="2">
@@ -162,7 +157,7 @@ function Report() {
                     type="button">
                     <span className="btn-inner--icon mr-1">
                       <img
-                        src={require("~img/icons/common/icons8-excel.png")}
+                        src={require("src/assets/img/icons/common/icons8-excel.png")}
                         alt="icon-excel"
                       />
                     </span>
@@ -234,7 +229,7 @@ function Report() {
                                   type="button">
                                   <span className="btn-inner--icon mr-1">
                                     <img
-                                      src={require("~img/icons/common/icons8-excel.png")}
+                                      src={require("src/assets/img/icons/common/icons8-excel.png")}
                                       alt="icon-excel"
                                     />
                                   </span>
@@ -258,7 +253,7 @@ function Report() {
                                   type="button">
                                   <span className="btn-inner--icon mr-1">
                                     <img
-                                      src={require("~img/icons/common/icons8-excel.png")}
+                                      src={require("src/assets/img/icons/common/icons8-excel.png")}
                                       alt="icon-excel"
                                     />
                                   </span>

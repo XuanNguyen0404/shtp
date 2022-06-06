@@ -1,4 +1,4 @@
-import { Country } from "~/types/Country";
+import { Country } from "src/types/Country";
 import axiosClient from "./axiosClient";
 
 class CountryApi {

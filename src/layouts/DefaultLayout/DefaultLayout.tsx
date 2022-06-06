@@ -11,8 +11,6 @@ interface Props {
   isSearch: boolean;
 }
 
-
-
 function DefaultLayout(props: React.PropsWithChildren<Props>) {
   return (
     <div className={cx("wrapper")}>

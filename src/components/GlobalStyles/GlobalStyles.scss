@@ -2,17 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 :root {
-}
-
+  
 html {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  // font-family: "Roboto", sans-serif;
   overflow-y: hidden;
   .Toastify__toast {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
   }
   min-width: 1366px;
+}
+
 }

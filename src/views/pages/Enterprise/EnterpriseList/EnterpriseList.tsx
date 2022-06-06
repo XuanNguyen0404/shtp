@@ -13,8 +13,6 @@ import {
   DropdownMenu,
   DropdownToggle,
   FormGroup,
-  FormText,
-  Input,
   Modal,
   ModalHeader,
   Pagination,
@@ -32,11 +30,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
-import enterpriseApi from "~/api/EnterpriseApi";
-import { Paging } from "~/types/Paging";
-import { EnterpriseItem } from "~/types/Enterprise";
 import { toast } from "react-toastify";
-import Loading from "~/components/Loading/Loading";
+import enterpriseApi from "src/api/EnterpriseApi";
+import Loading from "src/components/Loading/Loading";
+import { EnterpriseItem } from "src/types/Enterprise";
+import { Paging } from "src/types/Paging";
 
 const cx = classNames.bind(styles);
 
@@ -160,7 +158,7 @@ function EnterpriseList() {
                   type="button">
                   <span className="btn-inner--icon mr-1">
                     <img
-                      src={require("~img/icons/common/icons8-excel.png")}
+                      src={require("src/assets/img/icons/common/icons8-excel.png")}
                       alt="icon-excel"
                     />
                   </span>
@@ -175,7 +173,7 @@ function EnterpriseList() {
                   type="button">
                   <span className="btn-inner--icon mr-1">
                     <img
-                      src={require("~img/icons/common/icons8-plus.png")}
+                      src={require("src/assets/img/icons/common/icons8-plus.png")}
                       alt="icon-excel"
                     />
                   </span>

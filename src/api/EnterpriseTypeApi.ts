@@ -1,4 +1,4 @@
-import { EnterpriseType } from "~/types/EnterpriseType";
+import { EnterpriseType } from "src/types/EnterpriseType";
 import axiosClient from "./axiosClient";
 
 class EnterpriseTypeApi {

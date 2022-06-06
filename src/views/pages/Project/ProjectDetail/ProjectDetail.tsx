@@ -16,11 +16,12 @@ import {
   ModalHeader,
   Row,
 } from "reactstrap";
-import enterpriseApi from "~/api/EnterpriseApi";
-import projectApi from "~/api/ProjectApi";
-import Toggle from "~/components/Toggle/Toggle";
-import { EnterpriseDropdownItem } from "~/types/Enterprise";
-import { Project } from "~/types/Project";
+import enterpriseApi from "src/api/EnterpriseApi";
+import projectApi from "src/api/ProjectApi";
+import Toggle from "src/components/Toggle/Toggle";
+import { EnterpriseDropdownItem } from "src/types/Enterprise";
+import { Project } from "src/types/Project";
+
 export interface stateType {
   id: string;
   isUpdate: boolean;
@@ -97,7 +98,7 @@ function ProjectDetail() {
 
   const submitUpdateProject = async () => {
     try {
-      const response = await projectApi.updateProject({
+      await projectApi.updateProject({
         id: project.id,
         name: project.name,
         registrationCertificateDate: project.registrationCertificateDate,

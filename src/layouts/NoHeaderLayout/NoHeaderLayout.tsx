@@ -1,7 +1,7 @@
 import React from "react";
-import Sidebar from "~/components/Sidebar/Sidebar";
 import styles from "./NoHeaderLayout.module.scss";
 import classNames from "classnames/bind";
+import Sidebar from "src/components/Sidebar/Sidebar";
 const cx = classNames.bind(styles);
 
 interface Props {

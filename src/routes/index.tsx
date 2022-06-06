@@ -1,21 +1,21 @@
-import React from "react";
-import NoHeaderLayout from "~/layouts/NoHeaderLayout/NoHeaderLayout";
-import DashboardLayout from "~/layouts/DashboardLayout/DashboardLayout";
-import AccountList from "~/views/pages/Account/AccountList/AccountList";
-import EmployeeList from "~/views/pages/Employee/EmployeeList/EmployeeList";
-import EnterpriseList from "~/views/pages/Enterprise/EnterpriseList/EnterpriseList";
-import AddProject from "~/views/pages/Project/AddProject/AddProject";
-import ProjectDetail from "~/views/pages/Project/ProjectDetail/ProjectDetail";
-import ProjectList from "~/views/pages/Project/ProjectList/ProjectList";
-import EnterpriseDetail from "~/views/pages/Enterprise/EnterpriseDetail/EnterpriseDetail";
-import AddEnterprise from "~/views/pages/Enterprise/AddEnterprise/AddEnterprise";
-import DashboardEnterprise from "~/views/pages/Dashboard/DashboardEnterprise/DashboardEnterprise";
-import DashboardEmployee from "~/views/pages/Dashboard/DashboardEmployee/DashboardEmployee";
-import DashboardProject from "~/views/pages/Dashboard/DashboardProject/DashboardProject";
-import Login from "~/views/pages/Login/Login";
-import DefaultLayout from "~/layouts/DefaultLayout/DefaultLayout";
-import Report from "~/views/pages/EnterpriseRole/Report/Report";
-import DefaultLayoutEnterprise from "~/layouts/DefaultLayoutEnterprise/DefaultLayoutEnterprise";
+import DashboardLayout from "src/layouts/DashboardLayout/DashboardLayout";
+import DefaultLayout from "src/layouts/DefaultLayout/DefaultLayout";
+import DefaultLayoutEnterprise from "src/layouts/DefaultLayoutEnterprise/DefaultLayoutEnterprise";
+import NoHeaderLayout from "src/layouts/NoHeaderLayout/NoHeaderLayout";
+import AccountList from "src/views/pages/Account/AccountList/AccountList";
+import DashboardEmployee from "src/views/pages/Dashboard/DashboardEmployee/DashboardEmployee";
+import DashboardEnterprise from "src/views/pages/Dashboard/DashboardEnterprise/DashboardEnterprise";
+import DashboardProject from "src/views/pages/Dashboard/DashboardProject/DashboardProject";
+import EmployeeList from "src/views/pages/Employee/EmployeeList/EmployeeList";
+import AddEnterprise from "src/views/pages/Enterprise/AddEnterprise/AddEnterprise";
+import EnterpriseDetail from "src/views/pages/Enterprise/EnterpriseDetail/EnterpriseDetail";
+import EnterpriseList from "src/views/pages/Enterprise/EnterpriseList/EnterpriseList";
+import Report from "src/views/pages/EnterpriseRole/Report/Report";
+import Login from "src/views/pages/Login/Login";
+import AddProject from "src/views/pages/Project/AddProject/AddProject";
+import ProjectDetail from "src/views/pages/Project/ProjectDetail/ProjectDetail";
+import ProjectList from "src/views/pages/Project/ProjectList/ProjectList";
+
 
 interface Props {
   title: string;

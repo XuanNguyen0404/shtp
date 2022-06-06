@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import GlobalStyles from "~/components/GlobalStyles";
 
 // plugins styles downloaded
 import "./assets/vendor/nucleo/css/nucleo.css";
@@ -12,6 +11,7 @@ import "react-perfect-scrollbar/dist/css/styles.css";
 import "./assets/scss/argon-dashboard-pro-react.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'normalize.css';
+import GlobalStyles from "./components/GlobalStyles";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );

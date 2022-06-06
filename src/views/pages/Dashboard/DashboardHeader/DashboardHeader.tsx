@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./DashboardHeader.module.scss";
 import {
@@ -78,7 +77,7 @@ function DashboardHeader() {
                           <img
                             alt="..."
                             className="avatar rounded-circle"
-                            src={require("~img/theme/team-1.jpg")}
+                            src={require("src/assets/img/theme/team-1.jpg")}
                           />
                         </Col>
                         <div className="col ml--2">
@@ -113,7 +112,7 @@ function DashboardHeader() {
                   <DropdownToggle className="nav-link pr-0" color="" tag="a">
                     <Media className="align-items-center">
                       <span className="avatar avatar-sm rounded-circle">
-                        <img alt="..." src={require("~img/theme/team-4.jpg")} />
+                        <img alt="..." src={require("src/assets/img/theme/team-4.jpg")} />
                       </span>
                       <Media className="ml-2 d-none d-lg-block">
                         <span

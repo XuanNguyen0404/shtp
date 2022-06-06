@@ -34,7 +34,7 @@ interface EnterpriseItem {
 
 interface EnterpriseDropdownItem {
   id: string;
-  name : string;
+  name: string;
 }
 
-export type { Enterprise , EnterpriseItem,EnterpriseDropdownItem };
+export type { Enterprise, EnterpriseItem, EnterpriseDropdownItem };

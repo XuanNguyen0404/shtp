@@ -27,23 +27,14 @@ import {
   faFloppyDisk,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ProjectItem } from "~/types/Project";
-import projectApi from "~/api/ProjectApi";
-import { Paging } from "~/types/Paging";
-import Loading from "~/components/Loading/Loading";
 import { toast } from "react-toastify";
+import projectApi from "src/api/ProjectApi";
+import Loading from "src/components/Loading/Loading";
+import { Paging } from "src/types/Paging";
+import { ProjectItem } from "src/types/Project";
 
 const cx = classNames.bind(styles);
 
-type StatusProject = "Đang hoạt động" | "Đã thu hồi" | "Đã hoàn thành";
-type StatusReport = "Đã báo cáo" | "Chưa báo cáo";
-
-interface Project {
-  nameProject: string;
-  nameEnterprise: string;
-  statusProject: StatusProject;
-  statusReport: StatusReport;
-}
 
 function ProjectList() {
   const pageAmount = 10;
@@ -85,7 +76,7 @@ function ProjectList() {
     let paginationItems = [];
     console.log(paging.totalPages);
     for (let page = 1; page <= paging.totalPages; page++) {
-      if (page == paging.pagingIndex) {
+      if (page === paging.pagingIndex) {
         paginationItems.push(
           <PaginationItem className="active" key={page}>
             <PaginationLink href="#" onClick={(e) => e.preventDefault()}>
@@ -133,7 +124,7 @@ function ProjectList() {
 
   const submitDelete = async (deleteId: string) => {
     try {
-      const response = await projectApi.deleteProject(deleteId);
+      await projectApi.deleteProject(deleteId);
       console.log("Delete project successfully");
       fetchProjectList(paging.pagingIndex, pageAmount);
       toast.success("Xoá thành công");
@@ -162,7 +153,7 @@ function ProjectList() {
                   type="button">
                   <span className="btn-inner--icon mr-1">
                     <img
-                      src={require("~img/icons/common/icons8-excel.png")}
+                      src={require("src/assets/img/icons/common/icons8-excel.png")}
                       alt="icon-excel"
                     />
                   </span>
@@ -177,7 +168,7 @@ function ProjectList() {
                   type="button">
                   <span className="btn-inner--icon mr-1">
                     <img
-                      src={require("~img/icons/common/icons8-plus.png")}
+                      src={require("src/assets/img/icons/common/icons8-plus.png")}
                       alt="icon-excel"
                     />
                   </span>

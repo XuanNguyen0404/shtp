@@ -66,7 +66,7 @@ function Header(props: propsHeader) {
                                                     <img
                                                         alt="..."
                                                         className="avatar rounded-circle"
-                                                        src={require("~img/theme/team-1.jpg")}
+                                                        src={require("src/assets/img/theme/team-1.jpg")}
                                                     />
                                                 </Col>
                                                 <div className="col ml--2">
@@ -114,7 +114,7 @@ function Header(props: propsHeader) {
                                                 <img
                                                     alt="..."
                                                     src={
-                                                        require("~img/theme/team-4.jpg")
+                                                        require("src/assets/img/theme/team-4.jpg")
                                                     }
                                                 />
                                             </span>

@@ -1,11 +1,8 @@
-import React from "react";
 import styles from "./AccountList.module.scss";
 import classNames from "classnames/bind";
 import PerfectScrollbar from "react-perfect-scrollbar";
 import {
     faEllipsisV,
-    faCircleInfo,
-    faFloppyDisk,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -18,7 +15,6 @@ import {
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
-    DropdownItem,
     CardFooter,
     Pagination,
     PaginationItem,
@@ -104,7 +100,7 @@ function AccountList() {
                                     type="button">
                                     <span className="btn-inner--icon mr-1">
                                         <img
-                                            src={require("~img/icons/common/icons8-plus.png")}
+                                            src={require("src/assets/img/icons/common/icons8-plus.png")}
                                             alt="icon-excel"
                                         />
                                     </span>

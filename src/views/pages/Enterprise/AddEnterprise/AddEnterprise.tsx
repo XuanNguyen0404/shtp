@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./AddEnterprise.module.scss";
 import PerfectScrollbar from "react-perfect-scrollbar";
-import {toast } from 'react-toastify';
+import { toast } from "react-toastify";
 import {
   Container,
   Card,
@@ -14,17 +14,17 @@ import {
   Button,
 } from "reactstrap";
 import classNames from "classnames/bind";
-import { Enterprise } from "~/types/Enterprise";
-import enterpriseApi from "~/api/EnterpriseApi";
 import { useNavigate } from "react-router-dom";
-import businessTypeApi from "~/api/BusinessTypeApi";
-import { BusinessType } from "~/types/BusinessType";
-import { IndustrialAreaType } from "~/types/IndustrialAreaType";
-import { Country } from "~/types/Country";
-import industrialAreaTypeApi from "~/api/IndustrialAreaTypeApi";
-import countryApi from "~/api/CountryApi";
-import { EnterpriseType } from "~/types/EnterpriseType";
-import enterpriseTypeApi from "~/api/EnterpriseTypeApi";
+import businessTypeApi from "src/api/BusinessTypeApi";
+import countryApi from "src/api/CountryApi";
+import enterpriseApi from "src/api/EnterpriseApi";
+import enterpriseTypeApi from "src/api/EnterpriseTypeApi";
+import industrialAreaTypeApi from "src/api/IndustrialAreaTypeApi";
+import { BusinessType } from "src/types/BusinessType";
+import { Country } from "src/types/Country";
+import { Enterprise } from "src/types/Enterprise";
+import { EnterpriseType } from "src/types/EnterpriseType";
+import { IndustrialAreaType } from "src/types/IndustrialAreaType";
 const cx = classNames.bind(styles);
 
 function AddEnterprise() {
@@ -155,10 +155,10 @@ function AddEnterprise() {
         status: "Đang hoạt động",
       });
       console.log("Add enterprises successfully", response);
-      toast.success("Thêm doanh nghiệp thành công !")
+      toast.success("Thêm doanh nghiệp thành công !");
       navigate("/enterprise");
     } catch (error) {
-      toast.error("Thêm doanh nghiệp thất bại !")
+      toast.error("Thêm doanh nghiệp thất bại !");
       console.log("Failed to add enterprises", error);
     }
   };
