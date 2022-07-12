@@ -30,7 +30,6 @@ interface Route {
 
 const publicRoutes: Route[] = [
   {
-    
     path: "/login",
     component: Login,
   },
