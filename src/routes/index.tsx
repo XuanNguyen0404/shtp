@@ -38,6 +38,7 @@ const publicRoutes: Route[] = [
     component: Login,
   },
   {
+
     path: "/dashboard",
     component: DashboardEnterprise,
     title: "Trang Chủ",
@@ -48,6 +49,7 @@ const publicRoutes: Route[] = [
     component: DashboardEnterprise,
     title: "Trang Chủ",
     layout: DashboardLayout,
+
   },
   {
     path: "/dashboard/employee",
@@ -60,6 +62,7 @@ const publicRoutes: Route[] = [
     component: DashboardProject,
     title: "Trang Chủ",
     layout: DashboardLayout,
+    
   },
   {
     path: "/enterprise",

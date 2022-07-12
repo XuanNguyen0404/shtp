@@ -35,6 +35,7 @@ const accountList: Account[] = [
         name: "ftown-1@shtpmanagement",
         nameEnterprise: "FPT Software",
         status: "Đang hoạt động",
+        
     },
     {
         name: "ftown-1@shtpmanagement",
